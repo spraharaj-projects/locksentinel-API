@@ -10,6 +10,10 @@ from config import settings
 
 __version__ = "0.1.0"
 
+print('-----------------------------------------------------------')
+print(os.environ.get('HF_TOKEN'))
+print('-----------------------------------------------------------')
+
 # BASE_DIR = Path(__file__).resolve(strict=True).parent
 
 
