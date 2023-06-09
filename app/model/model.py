@@ -3,7 +3,7 @@ from huggingface_hub import login, hf_hub_download
 import os
 # import pickle
 import joblib
-from config import settings
+from app.config import settings
 
 # from pathlib import Path
 # import gdown
