@@ -7,9 +7,6 @@ from huggingface_hub import login
 
 app = FastAPI()
 
-login(settings.HF_TOKEN)
-
-
 class PasswordIn(BaseModel):
     password: str
 
